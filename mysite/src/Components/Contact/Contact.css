@@ -1,0 +1,115 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0 5%;
+}
+
+.contact-left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    gap: 20px; /* Increased gap between elements */
+    padding-bottom: 5%; /* Adjust padding for the container */
+}
+
+.contact-left p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.5;
+    width: 80%; /* Adjusted width for the text */
+}
+
+.contact-left .cont-head {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align icon and text vertically */
+    gap: 10px; /* Add space between icon and text */
+}
+
+.options {
+    display: flex;
+    flex-direction: column; /* Stack the options vertically */
+    gap: 10px;
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+.options ul li {
+    display: flex;
+    align-items: center; /* Align items in each list horizontally */
+    gap: 15px;
+    list-style: none;
+    margin: 11px;
+}
+
+.right-contact {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start; /* Align to the top of the column */
+    padding-right: 50px; /* Padding for the right */
+    margin-top: 20px; /* Optional: Adjust margin to space it below the other elements */
+}
+form{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 12px;
+    width: 100%;
+}
+#area{
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 40%;
+    height: 80%;
+}
+#area {
+    transition: width 0.4s ease-in-out;
+  }
+  
+  #area:focus {
+    width: 100%;
+  }
+.sendbutton{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 40%;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+
+}
+.sendbutton:hover{
+    background-color: darkblue;
+    color: white;
+    
+    transform: scale(1.1);
+}
+.form-result.success {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .form-result.error {
+    color: red;
+    margin-top: 10px;
+  }
+  

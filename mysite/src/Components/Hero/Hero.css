@@ -1,0 +1,64 @@
+.hero {
+    background-color: #f5f5f5; /* Light gray background */
+    /* color: #fff; White text color for better contrast */
+    height: 100vh;
+    color:#f5f5f5;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    justify-content: center;
+    font-weight: bold;
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.6), /* Start with black with 60% opacity for better readability */
+            rgba(0, 0, 0, 0.6) /* End with black with 60% opacity for uniform overlay */
+        ),
+        url('../../assets/hero.avif') no-repeat center center/cover;
+}
+.under{
+    text-align: center;
+    max-width: 800px;
+    margin-top: 20px;
+}
+h1{
+    margin-left: 100px;
+    font-size: 50px;
+}
+ul {
+    list-style: none;
+  }
+
+.main-btn{
+    /* background: linear-gradient(90deg, #6e7aa6, #637bc2); Gradient from muted blue to soft blue */
+    background: white; /* Gradient from muted blue to soft blue */
+    color: #000000; /* White text color */
+    padding: 14px 14px 14px;
+    font-size:17px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    margin-left: 40%;
+    justify-content: center;
+    display: inline flex;
+    align-items: center;
+    /* margin-top: 10px; */
+
+}
+.main-btn:hover {
+    background: #637bc2; /* Soft blue background on hover to remain consistent */
+    color: #fff; /* Keep white text color on hover */
+
+}
+.explore{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    display: inline flex;
+    margin-left: 10px;
+}
+li{
+    margin-top: 25px;
+}

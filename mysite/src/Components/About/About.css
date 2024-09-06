@@ -1,0 +1,55 @@
+.about{
+    margin: 150px auto; /* Отступы сверху и снизу */
+    /* Общие внешние границы */
+    width: 90%; /* Ширина блока */
+    display: flex; /* Отображение в виде блока */
+    justify-content: space-between; /* Выравнивание по горизонтали */
+}
+.about-img{
+    width: 100%;
+
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.about-left{
+    flex-basis: 40%;
+    display: flex;
+    position: relative;
+
+    
+}
+.about-right{
+    flex-basis: 60%; /* flex-basis - ширина блока */
+    display: flex; /* Отображение в виде блока */
+    flex-direction: column; /* чтобы элементы внутри (Абоут ас) и подтекст отобразился в столбце блоков */
+    justify-content: center;
+    padding: 45px; /* Внутренние отступы */
+}
+.about-play{
+    top: 50%; /* Положение по вертикали */
+    left: 50%; /* Положение по горизонтали */
+    width: 75px; /* Ширина и длина иконки */
+    height: 75px;
+    transform: translate(-50%, -50%); /* Перемещение на 50% влево и вверх чтобы поставить иконку в центр картинки*/ 
+    position: absolute; /* Абсолютное позиционирование  */ 
+    object-fit: cover;
+}
+
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.about h2{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about h1{
+    font-size: 30px;
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: 19px;
+    margin-left: 0;
+}
