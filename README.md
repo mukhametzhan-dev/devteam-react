@@ -30,24 +30,19 @@ To run this project locally, follow these steps:
    git clone https://github.com/mukhametzhan-dev/devteam-react.git
 Navigate to the project directory:
 
-bash
-Копировать код
+
 cd devteam-react
+
 Install dependencies:
 
-bash
-Копировать код
 npm install
+
 Run the development server:
-
-bash
-Копировать код
 npm run dev
-Open your browser and visit:
 
-arduino
-Копировать код
-http://localhost:3000
+Open your browser and visit:
+http://localhost:5173
+
 Usage
 Homepage: The landing page where users can learn about the team and services offered.
 Contact Form: Visitors can send messages directly through the contact form, which is integrated with the Web3Forms API for handling submissions.
