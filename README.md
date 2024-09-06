@@ -1,6 +1,6 @@
 # DevTeam React
 
-![Project Screenshot](https://raw.githubusercontent.com/mukhametzhan-dev/devteam-react/main/screenshot.png)
+![Project Screenshot](https://raw.githubusercontent.com/mukhametzhan-dev/devteam-react/screenshot.png)
 
 DevTeam React is a single-page application (SPA) that represents a professional developers team website. The project is designed to showcase services, testimonials, and contact information, with a modern and responsive design.
 
