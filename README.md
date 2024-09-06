@@ -16,10 +16,8 @@ DevTeam React is a single-page application (SPA) that represents a professional 
 
 The project is organized as follows:
 
-devteam-react/ │ ├── public/ │ ├── favicon.ico │ └── index.html │ ├── src/ │ ├── components/ │ │ ├── Header.js │ │ ├── Services.js │ │ ├── ContactForm.js │ │ └── ... │ ├── App.js │ ├── main.jsx │ └── ... │ ├── .gitignore ├── package.json ├── README.md └── vite.config.js
+mysite/ │ ├── public/ │ ├── favicon.ico │ └── index.html │ ├── src/ │ ├── Components/ │ │ ├── Header.js │ │ ├── Programs.js │ │ ├── Contact.js │ │ │ └── Hero.js │ ├── App.js │ ├── main.jsx │ └── ... │ ├── .gitignore ├── package.json ├── README.md └── vite.config.js
 
-arduino
-Копировать код
 
 ## Installation
 
