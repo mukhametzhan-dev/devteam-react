@@ -42,16 +42,16 @@ Open your browser and visit:
 http://localhost:5173
 
 Usage
-Homepage: The landing page where users can learn about the team and services offered.
-Contact Form: Visitors can send messages directly through the contact form, which is integrated with the Web3Forms API for handling submissions.
-Navigation: Smooth navigation experience with clearly defined sections for home, about, services, contact, and testimonials.
-Technologies Used
+<p> Homepage: The landing page where users can learn about the team and services offered. </p>
+<p> Contact Form: Visitors can send messages directly through the contact form, which is integrated with the Web3Forms API for handling submissions. </p>
+<p>Navigation: Smooth navigation experience with clearly defined sections for home, about, services, contact, and testimonials. </p>
+<p>Technologies Used
 React.js: JavaScript library for building user interfaces.
 Vite: Next generation frontend tooling.
 Web3Forms: API for handling form submissions securely and effortlessly.
-CSS: Custom styles for an aesthetically pleasing design.
-Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.
+CSS: Custom styles for an aesthetically pleasing design. </p>
+<i> Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or improvements. </i>
 
 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
