@@ -4,6 +4,8 @@
 
 DevTeam React is a single-page application (SPA) that represents a professional developers team website. The project is designed to showcase services, testimonials, and contact information, with a modern and responsive design.
 
+You can check it in: https://devteams.netlify.app/
+
 ## Features
 
 - **Modern Design:** A sleek and professional layout that highlights the services and capabilities of the development team.
